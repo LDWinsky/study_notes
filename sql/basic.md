@@ -278,9 +278,10 @@ select > from > where > group by > having > order by > limit
 
 ```sql
   create table tableName (
-    col_name type (not Null | Null) default defaultValue [auto_increment],
-    col_name type (not Null | Null) default defaultValue [auto_increment],
+    col_name type (not Null | Null) default defaultValue [auto_increment] [unique],
+    col_name type (not Null | Null) default defaultValue [auto_increment] [unique],
     primary key (col_name),
+    foreign key (col_name_in_current_table) reference foreign_table_name(col_name_in_foreign_table)
     [FULLTEXT]
   ) ENGINE=(MyISAM, InnoDB, MEMORY)
 ```
