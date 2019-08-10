@@ -13,7 +13,8 @@
 
 grid-template-columns 和 grid-template-rows 分别定义横向和纵向分成几块，每一块多长。组合起来就想分田地一样吧容器元素分成若干块正方形的区域。
 
-比如 
+比如
+
 ```css
   grid-template-columns: 100px 200px 300px;
   grid-template-rows: 300px 400px 500px;
