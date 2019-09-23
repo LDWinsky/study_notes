@@ -2,7 +2,7 @@
 
 ## 购买主机
 
-各种平台都可以购买，不过我们要的是梯子，所以只能购买墙外了的。当然距离最近时延迟越低，所以我选🇭🇰。
+各种平台都可以购买，不过我们要的是梯子，所以只能购买墙外了的。当然距离最近时延迟越低，所以我选🇭🇰。Ubuntu 18
 
 ## 购买公网IP
 
@@ -12,9 +12,13 @@
 
 在平台上下载sshkey，并绑定主机，通过 ssh 登录主机。`ssh -i pathofsshkey root@ip`。
 
-## 下载 ssh 程序
+## 安装服务器程序
+
+[`apt install python-pip`](https://askubuntu.com/questions/672808/sudo-apt-get-install-python-pip-is-failing)
 
 [`pip install shadowsocks`](https://cloud.tencent.com/developer/article/1159683)
+
+[ShadowSocks启动报错undefined symbol EVP_CIPHER_CTX_cleanup](https://kionf.com/2016/12/15/errornote-ss/)
 
 ## 配置 ssh 服务器
 
